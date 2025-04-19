@@ -11,3 +11,4 @@ npm install
 ```shell
 npm run build:mp-weixin
 ```
+## 5、将 `dist` 目录导入微信开发者工具预览
