@@ -1,0 +1,66 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/market/market",
+			"style": {
+				"navigationBarTitleText": "市场"
+			}
+		},
+		{
+			"path": "pages/orders/orders",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/about/about",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "游戏陪玩",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#007AFF",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/images/tabbar/home.png",
+				"selectedIconPath": "static/images/tabbar/home-active.png"
+			},
+			{
+				"pagePath": "pages/market/market",
+				"text": "市场",
+				"iconPath": "static/images/tabbar/market.png",
+				"selectedIconPath": "static/images/tabbar/market-active.png"
+			},
+			{
+				"pagePath": "pages/orders/orders",
+				"text": "订单",
+				"iconPath": "static/images/tabbar/orders.png",
+				"selectedIconPath": "static/images/tabbar/orders-active.png"
+			},
+			{
+				"pagePath": "pages/about/about",
+				"text": "我的",
+				"iconPath": "static/images/tabbar/about.png",
+				"selectedIconPath": "static/images/tabbar/about-active.png"
+			}
+		]
+	}
+}
